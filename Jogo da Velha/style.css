@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Super Mario World";
+    src: url(Super-Mario-World.ttf);;
+}
+body{
+    font-family: "Super Mario World";
+    font-size: 0.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+
+}
+#container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(fundobranco.png);
+    width: 540px;
+    height: 540px;
+}
+#titulo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 10px;
+}
+table{
+    margin: auto;
+    width: 330px;
+    height: 330px;
+    background-image: url(./tabuleiro3x\(1\).png);
+}
+td{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#reiniciar{
+    margin: auto;
+    display: flex;
+    font-family: "Super Mario World";
+    margin-left: 927px;
+    margin-top: -50px;
+}

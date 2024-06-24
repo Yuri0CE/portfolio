@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="shortcut icon" href="Mario.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="titulo">
+        <h1 style="text-align: center;">JOGO DA VELHA</h1>
+    </div>
+    <section id="container">
+        <table>
+            <tr>
+                <td class="a" id="1" onclick="desenhar(this.id)"></td>
+                <td class="a" id="2" onclick="desenhar(this.id)"></td>
+                <td class="a" id="3" onclick="desenhar(this.id)"></td>
+            </tr>
+            <tr>
+                <td class="a" id="4" onclick="desenhar(this.id)"></td>
+                <td class="a" id="5" onclick="desenhar(this.id)"></td>
+                <td class="a" id="6" onclick="desenhar(this.id)"></td>
+            </tr>
+            <tr>
+                <td class="a" id="7" onclick="desenhar(this.id)"></td>
+                <td class="a" id="8" onclick="desenhar(this.id)"></td>
+                <td class="a" id="9" onclick="desenhar(this.id)"></td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <div id="reiniciar"></div>
+    </section>
+</body>
+
+</html>

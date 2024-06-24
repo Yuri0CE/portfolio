@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'its-a-wonderful-world';
+    src: url('its-a-wonderful-world-title.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'New Rodin Pro N';
+    src: url('FOT-NewRodin\ Pro\ DB.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'its-a-wonderful-world', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+h6 {
+    font-family: 'New Rodin Pro N';
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    font-family: 'New Rodin Pro N';
+    text-align: center;
+    background-image: url(twewy\ wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-transparent {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+}
+
+.correct-answer {
+    background-color: rgb(107, 255, 49) !important;
+}
+
+.incorrect-answer {
+    background-color: rgb(247, 41, 41) !important;
+}
+
+#pontos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+img {
+    width: 45px;
+}
+
+#musica {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+}

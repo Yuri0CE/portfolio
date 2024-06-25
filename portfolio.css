@@ -273,6 +273,14 @@ body {
         height: 100%;
     }
 
+    .header {
+        max-height: 10vh;
+    }
+
+    .header a {
+        font-size: 13px;
+    }
+
     #inicio {
         height: 100vh;
     }
@@ -302,6 +310,6 @@ body {
     }
 
     #proj img {
-        width: 400px;
+        width: 380px;
     }
 }
